@@ -7,7 +7,7 @@ export default function Authenticate() {
     let [loginActive, setLoginActive] = React.useState(true);
   return (
     <div className="landing-page">
-      <div class="content-bg-wrap"></div>
+      <div className="content-bg-wrap"></div>
       <div className="header-spacer--standard" />
       <div className="container">
         <div className="row display-flex">
@@ -118,7 +118,7 @@ export default function Authenticate() {
                   <label className="control-label">Your Email</label>
                   <input
                     className="form-control"
-                    placeholder
+                    placeholder="Email"
                     type="email"
                     defaultValue="james-spiegel@yourmail.com"
                   />
@@ -130,7 +130,7 @@ export default function Authenticate() {
                   <label className="control-label">Enter the Code</label>
                   <input
                     className="form-control"
-                    placeholder
+                    placeholder="Code"
                     type="text"
                     defaultValue
                   />
@@ -139,7 +139,7 @@ export default function Authenticate() {
                   <label className="control-label">Your New Password</label>
                   <input
                     className="form-control"
-                    placeholder
+                    placeholder="Password"
                     type="password"
                     defaultValue="olympus"
                   />

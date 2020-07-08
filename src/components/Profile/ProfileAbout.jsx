@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { getCurrentProfile } from '../../actions/profile'
+import {Link} from 'react-router-dom'
 
 function ProfileAbout({ profile, testProp }) {
 
@@ -15,7 +16,7 @@ function ProfileAbout({ profile, testProp }) {
               <div className="ui-block">
                 <div className="ui-block-title">
                   <h6 className="title">Hobbies and Interests</h6>
-                  <a href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></a>
+                  <Link href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></Link>
                 </div>
                 <div className="ui-block-content">
                   <div className="row">
@@ -70,7 +71,7 @@ function ProfileAbout({ profile, testProp }) {
               <div className="ui-block">
                 <div className="ui-block-title">
                   <h6 className="title">Education and Employement</h6>
-                  <a href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></a>
+                  <Link href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></Link>
                 </div>
                 <div className="ui-block-content">
                   <div className="row">
@@ -124,7 +125,7 @@ function ProfileAbout({ profile, testProp }) {
               <div className="ui-block">
                 <div className="ui-block-title">
                   <h6 className="title">Personal Info</h6>
-                  <a href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></a>
+                  <Link href="#" className="more"><svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg></Link>
                 </div>
                 <div className="ui-block-content">
                   {/* W-Personal-Info */}
@@ -164,11 +165,11 @@ function ProfileAbout({ profile, testProp }) {
                     </li>
                     <li>
                       <span className="title">Email:</span>
-                      <a href="#" className="text">{profile.userId.email}</a>
+                      <Link href="#" className="text">{profile.userId.email}</Link>
                     </li>
                     <li>
                       <span className="title">Website:</span>
-                      <a href="#" className="text">{profile.personalWebsite}</a>
+                      <Link href="#" className="text">{profile.personalWebsite}</Link>
                     </li>
                     <li>
                       <span className="title">Phone Number:</span>
@@ -180,18 +181,18 @@ function ProfileAbout({ profile, testProp }) {
                   {/* W-Socials */}
                   <div className="widget w-socials">
                     <h6 className="title">Other Social Networks:</h6>
-                    <a href="#" className="social-item bg-facebook">
+                    <Link href="#" className="social-item bg-facebook">
                       <i className="fab fa-facebook-f" aria-hidden="true" />
                 Facebook
-              </a>
-                    <a href="#" className="social-item bg-twitter">
+              </Link>
+                    <Link href="#" className="social-item bg-twitter">
                       <i className="fab fa-twitter" aria-hidden="true" />
                 Twitter
-              </a>
-                    <a href="#" className="social-item bg-dribbble">
+              </Link>
+                    <Link href="#" className="social-item bg-dribbble">
                       <i className="fab fa-dribbble" aria-hidden="true" />
                 Dribbble
-              </a>
+              </Link>
                   </div>
                   {/* ... end W-Socials */}
                 </div>

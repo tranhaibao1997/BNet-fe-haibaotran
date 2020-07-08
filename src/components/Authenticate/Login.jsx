@@ -29,11 +29,11 @@ function Login({ isAuthenticated, login,loginFacebook }) {
           <div className="col col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div className="form-group label-floating">
               <label className="control-label">Your Email</label>
-              <input className="form-control" placeholder type="email" name="email" value={email} onChange={e => onChangeLogin(e)} />
+              <input className="form-control" placeholder="Email" type="email" name="email" value={email} onChange={e => onChangeLogin(e)} />
             </div>
             <div className="form-group label-floating">
               <label className="control-label">Your Password</label>
-              <input className="form-control" placeholder type="password" name="password" value={password} onChange={e => onChangeLogin(e)} />
+              <input className="form-control" placeholder="Password" type="password" name="password" value={password} onChange={e => onChangeLogin(e)} />
             </div>
             <div className="remember">
               <div className="checkbox">

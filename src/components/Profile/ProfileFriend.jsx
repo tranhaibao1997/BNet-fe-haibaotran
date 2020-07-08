@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function ProfileFriend() {
     return (
@@ -13,16 +14,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -31,7 +32,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar1.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Nicholas Grissom</a>
+                      <Link to="#" className="h5 author-name">Nicholas Grissom</Link>
                       <div className="country">San Francisco, CA</div>
                     </div>
                   </div>
@@ -39,26 +40,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">52</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">240</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">16</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">
@@ -87,16 +88,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -105,7 +106,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar2.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Marina Valentine</a>
+                      <Link to="#" className="h5 author-name">Marina Valentine</Link>
                       <div className="country">Long Island, NY</div>
                     </div>
                   </div>
@@ -113,26 +114,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">52</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">240</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">16</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">
@@ -161,16 +162,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -179,7 +180,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar3.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Nicholas Grissom</a>
+                      <Link to="#" className="h5 author-name">Nicholas Grissom</Link>
                       <div className="country">Los Angeles, CA</div>
                     </div>
                   </div>
@@ -187,26 +188,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">49</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">132</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">5</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">
@@ -235,16 +236,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -253,7 +254,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar4.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Chris Greyson</a>
+                      <Link to="#" className="h5 author-name">Chris Greyson</Link>
                       <div className="country">Austin, TX</div>
                     </div>
                   </div>
@@ -261,26 +262,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">65</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">104</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">12</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">
@@ -309,16 +310,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -327,7 +328,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar5.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Elaine Dreifuss</a>
+                      <Link to="#" className="h5 author-name">Elaine Dreifuss</Link>
                       <div className="country">New York, NY</div>
                     </div>
                   </div>
@@ -335,26 +336,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">82</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">204</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">27</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">
@@ -383,16 +384,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -401,7 +402,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar6.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Bruce Peterson</a>
+                      <Link to="#" className="h5 author-name">Bruce Peterson</Link>
                       <div className="country">Austin, TX</div>
                     </div>
                   </div>
@@ -409,26 +410,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">73</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">360</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">11</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">
@@ -457,16 +458,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -475,7 +476,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar7.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Carol Summers</a>
+                      <Link to="#" className="h5 author-name">Carol Summers</Link>
                       <div className="country">Los Angeles, CA</div>
                     </div>
                   </div>
@@ -483,26 +484,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">49</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">132</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">5</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">
@@ -531,16 +532,16 @@ export default function ProfileFriend() {
                 </div>
                 <div className="friend-item-content">
                   <div className="more">
-                    <svg className="olymp-three-dots-icon"><use xlinkHref="#olymp-three-dots-icon" /></svg>
+                    <svg className="olymp-three-dots-icon"><use xlinkto="#olymp-three-dots-icon" /></svg>
                     <ul className="more-dropdown">
                       <li>
-                        <a href="#">Report Profile</a>
+                        <Link to="#">Report Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Block Profile</a>
+                        <Link to="#">Block Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Turn Off Notifications</a>
+                        <Link to="#">Turn Off Notifications</Link>
                       </li>
                     </ul>
                   </div>
@@ -549,7 +550,7 @@ export default function ProfileFriend() {
                       <img src="/img/avatar8.jpg" alt="author" />
                     </div>
                     <div className="author-content">
-                      <a href="#" className="h5 author-name">Michael Maximoff</a>
+                      <Link to="#" className="h5 author-name">Michael Maximoff</Link>
                       <div className="country">Portland, OR</div>
                     </div>
                   </div>
@@ -557,26 +558,26 @@ export default function ProfileFriend() {
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
                         <div className="friend-count" data-swiper-parallax={-500}>
-                          <a href="#" className="friend-count-item">
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">58</div>
                             <div className="title">Friends</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">304</div>
                             <div className="title">Photos</div>
-                          </a>
-                          <a href="#" className="friend-count-item">
+                          </Link>
+                          <Link to="#" className="friend-count-item">
                             <div className="h6">19</div>
                             <div className="title">Videos</div>
-                          </a>
+                          </Link>
                         </div>
                         <div className="control-block-button" data-swiper-parallax={-100}>
-                          <a href="#" className="btn btn-control bg-blue">
-                            <svg className="olymp-happy-face-icon"><use xlinkHref="#olymp-happy-face-icon" /></svg>
-                          </a>
-                          <a href="#" className="btn btn-control bg-purple">
-                            <svg className="olymp-chat---messages-icon"><use xlinkHref="#olymp-chat---messages-icon" /></svg>
-                          </a>
+                          <Link to="#" className="btn btn-control bg-blue">
+                            <svg className="olymp-happy-face-icon"><use xlinkto="#olymp-happy-face-icon" /></svg>
+                          </Link>
+                          <Link to="#" className="btn btn-control bg-purple">
+                            <svg className="olymp-chat---messages-icon"><use xlinkto="#olymp-chat---messages-icon" /></svg>
+                          </Link>
                         </div>
                       </div>
                       <div className="swiper-slide">

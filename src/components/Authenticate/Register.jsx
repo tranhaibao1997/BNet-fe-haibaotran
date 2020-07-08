@@ -122,9 +122,10 @@ function Register({ register, isAuthenticated }) {
             id="inputState"
             className="form-control"
             name="gender"
-            value={gender}
+            value={gender||"chooseGender"}
+            
           >
-            <option selected>Choose Your Gender...</option>
+            <option value="chooseGender" >Choose Your Gender...</option>
             <option>Male</option>
             <option>Female</option>
           </select>
