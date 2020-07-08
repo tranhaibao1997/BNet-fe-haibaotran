@@ -23,26 +23,26 @@ function Navbar({ isAuthenticated, user }) {
               />
               <button>
                 <svg className="olymp-magnifying-glass-icon">
-                  <use xlinkHref="#olymp-magnifying-glass-icon" />
+                  <use xlinkto="#olymp-magnifying-glass-icon" />
                 </svg>
               </button>
             </div>
           </form>
-          <a href="#" className="link-find-friend">
+          <Link to="#" className="link-find-friend">
             Find Friends
-          </a>
+          </Link>
           {isAuthenticated && user ? (
             <div className="control-block">
               <div className="control-icon more has-items">
                 <svg className="olymp-happy-face-icon">
-                  <use xlinkHref="#olymp-happy-face-icon" />
+                  <use xlinkto="#olymp-happy-face-icon" />
                 </svg>
                 <div className="label-avatar bg-blue">6</div>
                 <div className="more-dropdown more-with-triangle triangle-top-center">
                   <div className="ui-block-title ui-block-title-small">
                     <h6 className="title">FRIEND REQUESTS</h6>
-                    <a href="#">Find Friends</a>
-                    <a href="#">Settings</a>
+                    <Link to="#">Find Friends</Link>
+                    <Link to="#">Settings</Link>
                   </div>
                   <div className="mCustomScrollbar" data-mcs-theme="dark">
                     <ul className="notification-list friend-requests">
@@ -51,32 +51,32 @@ function Navbar({ isAuthenticated, user }) {
                           <img src="/img/avatar55-sm.jpg" alt="author" />
                         </div>
                         <div className="notification-event">
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             Tamara Romanoff
-                          </a>
+                          </Link>
                           <span className="chat-message-item">
                             Mutual Friend: Sarah Hetfield
                           </span>
                         </div>
                         <span className="notification-icon">
-                          <a href="#" className="accept-request">
+                          <Link to="#" className="accept-request">
                             <span className="icon-add without-text">
                               <svg className="olymp-happy-face-icon">
-                                <use xlinkHref="#olymp-happy-face-icon" />
+                                <use xlinkto="#olymp-happy-face-icon" />
                               </svg>
                             </span>
-                          </a>
-                          <a href="#" className="accept-request request-del">
+                          </Link>
+                          <Link to="#" className="accept-request request-del">
                             <span className="icon-minus">
                               <svg className="olymp-happy-face-icon">
-                                <use xlinkHref="#olymp-happy-face-icon" />
+                                <use xlinkto="#olymp-happy-face-icon" />
                               </svg>
                             </span>
-                          </a>
+                          </Link>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                         </div>
                       </li>
@@ -85,32 +85,32 @@ function Navbar({ isAuthenticated, user }) {
                           <img src="/img/avatar56-sm.jpg" alt="author" />
                         </div>
                         <div className="notification-event">
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             Tony Stevens
-                          </a>
+                          </Link>
                           <span className="chat-message-item">
                             4 Friends in Common
                           </span>
                         </div>
                         <span className="notification-icon">
-                          <a href="#" className="accept-request">
+                          <Link to="#" className="accept-request">
                             <span className="icon-add without-text">
                               <svg className="olymp-happy-face-icon">
-                                <use xlinkHref="#olymp-happy-face-icon" />
+                                <use xlinkto="#olymp-happy-face-icon" />
                               </svg>
                             </span>
-                          </a>
-                          <a href="#" className="accept-request request-del">
+                          </Link>
+                          <Link to="#" className="accept-request request-del">
                             <span className="icon-minus">
                               <svg className="olymp-happy-face-icon">
-                                <use xlinkHref="#olymp-happy-face-icon" />
+                                <use xlinkto="#olymp-happy-face-icon" />
                               </svg>
                             </span>
-                          </a>
+                          </Link>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                         </div>
                       </li>
@@ -120,26 +120,26 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <div className="notification-event">
                           You and{" "}
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             Mary Jane Stark
-                          </a>{" "}
+                          </Link>{" "}
                           just became friends. Write on{" "}
-                          <a href="#" className="notification-link">
+                          <Link to="#" className="notification-link">
                             her wall
-                          </a>
+                          </Link>
                           .
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-happy-face-icon">
-                            <use xlinkHref="#olymp-happy-face-icon" />
+                            <use xlinkto="#olymp-happy-face-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                           <svg className="olymp-little-delete">
-                            <use xlinkHref="#olymp-little-delete" />
+                            <use xlinkto="#olymp-little-delete" />
                           </svg>
                         </div>
                       </li>
@@ -148,52 +148,52 @@ function Navbar({ isAuthenticated, user }) {
                           <img src="/img/avatar58-sm.jpg" alt="author" />
                         </div>
                         <div className="notification-event">
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             Stagg Clothing
-                          </a>
+                          </Link>
                           <span className="chat-message-item">
                             9 Friends in Common
                           </span>
                         </div>
                         <span className="notification-icon">
-                          <a href="#" className="accept-request">
+                          <Link to="#" className="accept-request">
                             <span className="icon-add without-text">
                               <svg className="olymp-happy-face-icon">
-                                <use xlinkHref="#olymp-happy-face-icon" />
+                                <use xlinkto="#olymp-happy-face-icon" />
                               </svg>
                             </span>
-                          </a>
-                          <a href="#" className="accept-request request-del">
+                          </Link>
+                          <Link to="#" className="accept-request request-del">
                             <span className="icon-minus">
                               <svg className="olymp-happy-face-icon">
-                                <use xlinkHref="#olymp-happy-face-icon" />
+                                <use xlinkto="#olymp-happy-face-icon" />
                               </svg>
                             </span>
-                          </a>
+                          </Link>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                         </div>
                       </li>
                     </ul>
                   </div>
-                  <a href="#" className="view-all bg-blue">
+                  <Link to="#" className="view-all bg-blue">
                     Check all your Events
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="control-icon more has-items">
                 <svg className="olymp-chat---messages-icon">
-                  <use xlinkHref="#olymp-chat---messages-icon" />
+                  <use xlinkto="#olymp-chat---messages-icon" />
                 </svg>
                 <div className="label-avatar bg-purple">2</div>
                 <div className="more-dropdown more-with-triangle triangle-top-center">
                   <div className="ui-block-title ui-block-title-small">
                     <h6 className="title">Chat / Messages</h6>
-                    <a href="#">Mark all as read</a>
-                    <a href="#">Settings</a>
+                    <Link to="#">Mark all as read</Link>
+                    <Link to="#">Settings</Link>
                   </div>
                   <div className="mCustomScrollbar" data-mcs-theme="dark">
                     <ul className="notification-list chat-message">
@@ -202,9 +202,9 @@ function Navbar({ isAuthenticated, user }) {
                           <img src="/img/avatar59-sm.jpg" alt="author" />
                         </div>
                         <div className="notification-event">
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             Diana Jameson
-                          </a>
+                          </Link>
                           <span className="chat-message-item">
                             Hi James! It’s Diana, I just wanted to let you know
                             that we have to reschedule...
@@ -220,12 +220,12 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-chat---messages-icon">
-                            <use xlinkHref="#olymp-chat---messages-icon" />
+                            <use xlinkto="#olymp-chat---messages-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                         </div>
                       </li>
@@ -234,9 +234,9 @@ function Navbar({ isAuthenticated, user }) {
                           <img src="/img/avatar60-sm.jpg" alt="author" />
                         </div>
                         <div className="notification-event">
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             Jake Parker
-                          </a>
+                          </Link>
                           <span className="chat-message-item">
                             Great, I’ll see you tomorrow!.
                           </span>
@@ -251,12 +251,12 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-chat---messages-icon">
-                            <use xlinkHref="#olymp-chat---messages-icon" />
+                            <use xlinkto="#olymp-chat---messages-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                         </div>
                       </li>
@@ -265,9 +265,9 @@ function Navbar({ isAuthenticated, user }) {
                           <img src="/img/avatar61-sm.jpg" alt="author" />
                         </div>
                         <div className="notification-event">
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             Elaine Dreyfuss
-                          </a>
+                          </Link>
                           <span className="chat-message-item">
                             We’ll have to check that at the office and see if
                             the client is on board with...
@@ -283,12 +283,12 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-chat---messages-icon">
-                            <use xlinkHref="#olymp-chat---messages-icon" />
+                            <use xlinkto="#olymp-chat---messages-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                         </div>
                       </li>
@@ -300,9 +300,9 @@ function Navbar({ isAuthenticated, user }) {
                           <img src="/img/avatar10-sm.jpg" alt="author" />
                         </div>
                         <div className="notification-event">
-                          <a href="#" className="h6 notification-friend">
+                          <Link to="#" className="h6 notification-friend">
                             You, Faye, Ed &amp; Jet +3
-                          </a>
+                          </Link>
                           <span className="last-message-author">Ed:</span>
                           <span className="chat-message-item">
                             Yeah! Seems fine by me!
@@ -318,32 +318,32 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-chat---messages-icon">
-                            <use xlinkHref="#olymp-chat---messages-icon" />
+                            <use xlinkto="#olymp-chat---messages-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                         </div>
                       </li>
                     </ul>
                   </div>
-                  <a href="#" className="view-all bg-purple">
+                  <Link to="#" className="view-all bg-purple">
                     View All Messages
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="control-icon more has-items">
                 <svg className="olymp-thunder-icon">
-                  <use xlinkHref="#olymp-thunder-icon" />
+                  <use xlinkto="#olymp-thunder-icon" />
                 </svg>
                 <div className="label-avatar bg-primary">8</div>
                 <div className="more-dropdown more-with-triangle triangle-top-center">
                   <div className="ui-block-title ui-block-title-small">
                     <h6 className="title">Notifications</h6>
-                    <a href="#">Mark all as read</a>
-                    <a href="#">Settings</a>
+                    <Link to="#">Mark all as read</Link>
+                    <Link to="#">Settings</Link>
                   </div>
                   <div className="mCustomScrollbar" data-mcs-theme="dark">
                     <ul className="notification-list">
@@ -353,13 +353,13 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <div className="notification-event">
                           <div>
-                            <a href="#" className="h6 notification-friend">
+                            <Link to="#" className="h6 notification-friend">
                               Mathilda Brinker
-                            </a>{" "}
+                            </Link>{" "}
                             commented on your new{" "}
-                            <a href="#" className="notification-link">
+                            <Link to="#" className="notification-link">
                               profile status
-                            </a>
+                            </Link>
                             .
                           </div>
                           <span className="notification-date">
@@ -373,15 +373,15 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-comments-post-icon">
-                            <use xlinkHref="#olymp-comments-post-icon" />
+                            <use xlinkto="#olymp-comments-post-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                           <svg className="olymp-little-delete">
-                            <use xlinkHref="#olymp-little-delete" />
+                            <use xlinkto="#olymp-little-delete" />
                           </svg>
                         </div>
                       </li>
@@ -392,13 +392,13 @@ function Navbar({ isAuthenticated, user }) {
                         <div className="notification-event">
                           <div>
                             You and{" "}
-                            <a href="#" className="h6 notification-friend">
+                            <Link to="#" className="h6 notification-friend">
                               Nicholas Grissom
-                            </a>{" "}
+                            </Link>{" "}
                             just became friends. Write on{" "}
-                            <a href="#" className="notification-link">
+                            <Link to="#" className="notification-link">
                               his wall
-                            </a>
+                            </Link>
                             .
                           </div>
                           <span className="notification-date">
@@ -412,15 +412,15 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-happy-face-icon">
-                            <use xlinkHref="#olymp-happy-face-icon" />
+                            <use xlinkto="#olymp-happy-face-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                           <svg className="olymp-little-delete">
-                            <use xlinkHref="#olymp-little-delete" />
+                            <use xlinkto="#olymp-little-delete" />
                           </svg>
                         </div>
                       </li>
@@ -430,13 +430,13 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <div className="notification-event">
                           <div>
-                            <a href="#" className="h6 notification-friend">
+                            <Link to="#" className="h6 notification-friend">
                               Sarah Hetfield
-                            </a>{" "}
+                            </Link>{" "}
                             commented on your{" "}
-                            <a href="#" className="notification-link">
+                            <Link to="#" className="notification-link">
                               photo
-                            </a>
+                            </Link>
                             .
                           </div>
                           <span className="notification-date">
@@ -450,7 +450,7 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-comments-post-icon">
-                            <use xlinkHref="#olymp-comments-post-icon" />
+                            <use xlinkto="#olymp-comments-post-icon" />
                           </svg>
                         </span>
                         <div className="comment-photo">
@@ -462,10 +462,10 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                           <svg className="olymp-little-delete">
-                            <use xlinkHref="#olymp-little-delete" />
+                            <use xlinkto="#olymp-little-delete" />
                           </svg>
                         </div>
                       </li>
@@ -475,13 +475,13 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <div className="notification-event">
                           <div>
-                            <a href="#" className="h6 notification-friend">
+                            <Link to="#" className="h6 notification-friend">
                               Green Goo Rock
-                            </a>{" "}
+                            </Link>{" "}
                             invited you to attend to his event Goo in{" "}
-                            <a href="#" className="notification-link">
+                            <Link to="#" className="notification-link">
                               Gotham Bar
-                            </a>
+                            </Link>
                             .
                           </div>
                           <span className="notification-date">
@@ -495,15 +495,15 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-happy-face-icon">
-                            <use xlinkHref="#olymp-happy-face-icon" />
+                            <use xlinkto="#olymp-happy-face-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                           <svg className="olymp-little-delete">
-                            <use xlinkHref="#olymp-little-delete" />
+                            <use xlinkto="#olymp-little-delete" />
                           </svg>
                         </div>
                       </li>
@@ -513,13 +513,13 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <div className="notification-event">
                           <div>
-                            <a href="#" className="h6 notification-friend">
+                            <Link to="#" className="h6 notification-friend">
                               James Summers
-                            </a>{" "}
+                            </Link>{" "}
                             commented on your new{" "}
-                            <a href="#" className="notification-link">
+                            <Link to="#" className="notification-link">
                               profile status
-                            </a>
+                            </Link>
                             .
                           </div>
                           <span className="notification-date">
@@ -533,23 +533,23 @@ function Navbar({ isAuthenticated, user }) {
                         </div>
                         <span className="notification-icon">
                           <svg className="olymp-heart-icon">
-                            <use xlinkHref="#olymp-heart-icon" />
+                            <use xlinkto="#olymp-heart-icon" />
                           </svg>
                         </span>
                         <div className="more">
                           <svg className="olymp-three-dots-icon">
-                            <use xlinkHref="#olymp-three-dots-icon" />
+                            <use xlinkto="#olymp-three-dots-icon" />
                           </svg>
                           <svg className="olymp-little-delete">
-                            <use xlinkHref="#olymp-little-delete" />
+                            <use xlinkto="#olymp-little-delete" />
                           </svg>
                         </div>
                       </li>
                     </ul>
                   </div>
-                  <a href="#" className="view-all bg-primary">
+                  <Link to="#" className="view-all bg-primary">
                     View All Notifications
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="author-page author vcard inline-items more">
@@ -570,19 +570,19 @@ function Navbar({ isAuthenticated, user }) {
                         <li>
                           <Link to="/dashboard/personal">
                             <svg className="olymp-menu-icon">
-                              <use xlinkHref="#olymp-menu-icon" />
+                              <use xlinkto="#olymp-menu-icon" />
                             </svg>
                             <span>Profile Settings</span>
                           </Link>
                         </li>
                       
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <svg className="olymp-logout-icon">
-                              <use xlinkHref="#olymp-logout-icon" />
+                              <use xlinkto="#olymp-logout-icon" />
                             </svg>
                             <span>Log Out</span>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                      
@@ -594,7 +594,7 @@ function Navbar({ isAuthenticated, user }) {
                   <div className="author-title">
                     {user.firstName} {user.lastName}
                     <svg className="olymp-dropdown-arrow-icon">
-                      <use xlinkHref="#olymp-dropdown-arrow-icon" />
+                      <use xlinkto="#olymp-dropdown-arrow-icon" />
                     </svg>
                   </div>
                 </Link>
@@ -624,14 +624,14 @@ function Navbar({ isAuthenticated, user }) {
                   <div className="ripple-container" />
                 </button>
               </form>
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="btn btn-primary btn-md-2 login-btn-responsive"
                 data-toggle="modal"
                 data-target="#registration-login-form-popup"
               >
                 Login
-              </a>
+              </Link>
             </div>
           )}
         </div>
@@ -644,59 +644,59 @@ function Navbar({ isAuthenticated, user }) {
         <div className="header-content-wrapper">
           <ul className="nav nav-tabs mobile-app-tabs" role="tablist">
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link"
                 data-toggle="tab"
-                href="#request"
+                to="#request"
                 role="tab"
               >
                 <div className="control-icon has-items">
                   <svg className="olymp-happy-face-icon">
-                    <use xlinkHref="#olymp-happy-face-icon" />
+                    <use xlinkto="#olymp-happy-face-icon" />
                   </svg>
                   <div className="label-avatar bg-blue">6</div>
                 </div>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" data-toggle="tab" href="#chat" role="tab">
+              <Link className="nav-link" data-toggle="tab" to="#chat" role="tab">
                 <div className="control-icon has-items">
                   <svg className="olymp-chat---messages-icon">
-                    <use xlinkHref="#olymp-chat---messages-icon" />
+                    <use xlinkto="#olymp-chat---messages-icon" />
                   </svg>
                   <div className="label-avatar bg-purple">2</div>
                 </div>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link"
                 data-toggle="tab"
-                href="#notification"
+                to="#notification"
                 role="tab"
               >
                 <div className="control-icon has-items">
                   <svg className="olymp-thunder-icon">
-                    <use xlinkHref="#olymp-thunder-icon" />
+                    <use xlinkto="#olymp-thunder-icon" />
                   </svg>
                   <div className="label-avatar bg-primary">8</div>
                 </div>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link"
                 data-toggle="tab"
-                href="#search"
+                to="#search"
                 role="tab"
               >
                 <svg className="olymp-magnifying-glass-icon">
-                  <use xlinkHref="#olymp-magnifying-glass-icon" />
+                  <use xlinkto="#olymp-magnifying-glass-icon" />
                 </svg>
                 <svg className="olymp-close-icon">
-                  <use xlinkHref="#olymp-close-icon" />
+                  <use xlinkto="#olymp-close-icon" />
                 </svg>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -706,8 +706,8 @@ function Navbar({ isAuthenticated, user }) {
             <div className="mCustomScrollbar" data-mcs-theme="dark">
               <div className="ui-block-title ui-block-title-small">
                 <h6 className="title">FRIEND REQUESTS</h6>
-                <a href="#">Find Friends</a>
-                <a href="#">Settings</a>
+                <Link to="#">Find Friends</Link>
+                <Link to="#">Settings</Link>
               </div>
               <ul className="notification-list friend-requests">
                 <li>
@@ -715,32 +715,32 @@ function Navbar({ isAuthenticated, user }) {
                     <img src="/img/avatar55-sm.jpg" alt="author" />
                   </div>
                   <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       Tamara Romanoff
-                    </a>
+                    </Link>
                     <span className="chat-message-item">
                       Mutual Friend: Sarah Hetfield
                     </span>
                   </div>
                   <span className="notification-icon">
-                    <a href="#" className="accept-request">
+                    <Link to="#" className="accept-request">
                       <span className="icon-add without-text">
                         <svg className="olymp-happy-face-icon">
-                          <use xlinkHref="#olymp-happy-face-icon" />
+                          <use xlinkto="#olymp-happy-face-icon" />
                         </svg>
                       </span>
-                    </a>
-                    <a href="#" className="accept-request request-del">
+                    </Link>
+                    <Link to="#" className="accept-request request-del">
                       <span className="icon-minus">
                         <svg className="olymp-happy-face-icon">
-                          <use xlinkHref="#olymp-happy-face-icon" />
+                          <use xlinkto="#olymp-happy-face-icon" />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                   </div>
                 </li>
@@ -749,32 +749,32 @@ function Navbar({ isAuthenticated, user }) {
                     <img src="/img/avatar56-sm.jpg" alt="author" />
                   </div>
                   <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       Tony Stevens
-                    </a>
+                    </Link>
                     <span className="chat-message-item">
                       4 Friends in Common
                     </span>
                   </div>
                   <span className="notification-icon">
-                    <a href="#" className="accept-request">
+                    <Link to="#" className="accept-request">
                       <span className="icon-add without-text">
                         <svg className="olymp-happy-face-icon">
-                          <use xlinkHref="#olymp-happy-face-icon" />
+                          <use xlinkto="#olymp-happy-face-icon" />
                         </svg>
                       </span>
-                    </a>
-                    <a href="#" className="accept-request request-del">
+                    </Link>
+                    <Link to="#" className="accept-request request-del">
                       <span className="icon-minus">
                         <svg className="olymp-happy-face-icon">
-                          <use xlinkHref="#olymp-happy-face-icon" />
+                          <use xlinkto="#olymp-happy-face-icon" />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                   </div>
                 </li>
@@ -784,26 +784,26 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <div className="notification-event">
                     You and{" "}
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       Mary Jane Stark
-                    </a>{" "}
+                    </Link>{" "}
                     just became friends. Write on{" "}
-                    <a href="#" className="notification-link">
+                    <Link to="#" className="notification-link">
                       her wall
-                    </a>
+                    </Link>
                     .
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-happy-face-icon">
-                      <use xlinkHref="#olymp-happy-face-icon" />
+                      <use xlinkto="#olymp-happy-face-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                     <svg className="olymp-little-delete">
-                      <use xlinkHref="#olymp-little-delete" />
+                      <use xlinkto="#olymp-little-delete" />
                     </svg>
                   </div>
                 </li>
@@ -812,47 +812,47 @@ function Navbar({ isAuthenticated, user }) {
                     <img src="/img/avatar58-sm.jpg" alt="author" />
                   </div>
                   <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       Stagg Clothing
-                    </a>
+                    </Link>
                     <span className="chat-message-item">
                       9 Friends in Common
                     </span>
                   </div>
                   <span className="notification-icon">
-                    <a href="#" className="accept-request">
+                    <Link to="#" className="accept-request">
                       <span className="icon-add without-text">
                         <svg className="olymp-happy-face-icon">
-                          <use xlinkHref="#olymp-happy-face-icon" />
+                          <use xlinkto="#olymp-happy-face-icon" />
                         </svg>
                       </span>
-                    </a>
-                    <a href="#" className="accept-request request-del">
+                    </Link>
+                    <Link to="#" className="accept-request request-del">
                       <span className="icon-minus">
                         <svg className="olymp-happy-face-icon">
-                          <use xlinkHref="#olymp-happy-face-icon" />
+                          <use xlinkto="#olymp-happy-face-icon" />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                   </div>
                 </li>
               </ul>
-              <a href="#" className="view-all bg-blue">
+              <Link to="#" className="view-all bg-blue">
                 Check all your Events
-              </a>
+              </Link>
             </div>
           </div>
           <div className="tab-pane " id="chat" role="tabpanel">
             <div className="mCustomScrollbar" data-mcs-theme="dark">
               <div className="ui-block-title ui-block-title-small">
                 <h6 className="title">Chat / Messages</h6>
-                <a href="#">Mark all as read</a>
-                <a href="#">Settings</a>
+                <Link to="#">Mark all as read</Link>
+                <Link to="#">Settings</Link>
               </div>
               <ul className="notification-list chat-message">
                 <li className="message-unread">
@@ -860,9 +860,9 @@ function Navbar({ isAuthenticated, user }) {
                     <img src="/img/avatar59-sm.jpg" alt="author" />
                   </div>
                   <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       Diana Jameson
-                    </a>
+                    </Link>
                     <span className="chat-message-item">
                       Hi James! It’s Diana, I just wanted to let you know that
                       we have to reschedule...
@@ -878,12 +878,12 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-chat---messages-icon">
-                      <use xlinkHref="#olymp-chat---messages-icon" />
+                      <use xlinkto="#olymp-chat---messages-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                   </div>
                 </li>
@@ -892,9 +892,9 @@ function Navbar({ isAuthenticated, user }) {
                     <img src="/img/avatar60-sm.jpg" alt="author" />
                   </div>
                   <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       Jake Parker
-                    </a>
+                    </Link>
                     <span className="chat-message-item">
                       Great, I’ll see you tomorrow!.
                     </span>
@@ -909,12 +909,12 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-chat---messages-icon">
-                      <use xlinkHref="#olymp-chat---messages-icon" />
+                      <use xlinkto="#olymp-chat---messages-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                   </div>
                 </li>
@@ -923,9 +923,9 @@ function Navbar({ isAuthenticated, user }) {
                     <img src="/img/avatar61-sm.jpg" alt="author" />
                   </div>
                   <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       Elaine Dreyfuss
-                    </a>
+                    </Link>
                     <span className="chat-message-item">
                       We’ll have to check that at the office and see if the
                       client is on board with...
@@ -941,12 +941,12 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-chat---messages-icon">
-                      <use xlinkHref="#olymp-chat---messages-icon" />
+                      <use xlinkto="#olymp-chat---messages-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                   </div>
                 </li>
@@ -958,9 +958,9 @@ function Navbar({ isAuthenticated, user }) {
                     <img src="/img/avatar10-sm.jpg" alt="author" />
                   </div>
                   <div className="notification-event">
-                    <a href="#" className="h6 notification-friend">
+                    <Link to="#" className="h6 notification-friend">
                       You, Faye, Ed &amp; Jet +3
-                    </a>
+                    </Link>
                     <span className="last-message-author">Ed:</span>
                     <span className="chat-message-item">
                       Yeah! Seems fine by me!
@@ -976,27 +976,27 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-chat---messages-icon">
-                      <use xlinkHref="#olymp-chat---messages-icon" />
+                      <use xlinkto="#olymp-chat---messages-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                   </div>
                 </li>
               </ul>
-              <a href="#" className="view-all bg-purple">
+              <Link to="#" className="view-all bg-purple">
                 View All Messages
-              </a>
+              </Link>
             </div>
           </div>
           <div className="tab-pane " id="notification" role="tabpanel">
             <div className="mCustomScrollbar" data-mcs-theme="dark">
               <div className="ui-block-title ui-block-title-small">
                 <h6 className="title">Notifications</h6>
-                <a href="#">Mark all as read</a>
-                <a href="#">Settings</a>
+                <Link to="#">Mark all as read</Link>
+                <Link to="#">Settings</Link>
               </div>
               <ul className="notification-list">
                 <li>
@@ -1005,13 +1005,13 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <div className="notification-event">
                     <div>
-                      <a href="#" className="h6 notification-friend">
+                      <Link to="#" className="h6 notification-friend">
                         Mathilda Brinker
-                      </a>{" "}
+                      </Link>{" "}
                       commented on your new{" "}
-                      <a href="#" className="notification-link">
+                      <Link to="#" className="notification-link">
                         profile status
-                      </a>
+                      </Link>
                       .
                     </div>
                     <span className="notification-date">
@@ -1025,15 +1025,15 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-comments-post-icon">
-                      <use xlinkHref="#olymp-comments-post-icon" />
+                      <use xlinkto="#olymp-comments-post-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                     <svg className="olymp-little-delete">
-                      <use xlinkHref="#olymp-little-delete" />
+                      <use xlinkto="#olymp-little-delete" />
                     </svg>
                   </div>
                 </li>
@@ -1044,13 +1044,13 @@ function Navbar({ isAuthenticated, user }) {
                   <div className="notification-event">
                     <div>
                       You and{" "}
-                      <a href="#" className="h6 notification-friend">
+                      <Link to="#" className="h6 notification-friend">
                         Nicholas Grissom
-                      </a>{" "}
+                      </Link>{" "}
                       just became friends. Write on{" "}
-                      <a href="#" className="notification-link">
+                      <Link to="#" className="notification-link">
                         his wall
-                      </a>
+                      </Link>
                       .
                     </div>
                     <span className="notification-date">
@@ -1064,15 +1064,15 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-happy-face-icon">
-                      <use xlinkHref="#olymp-happy-face-icon" />
+                      <use xlinkto="#olymp-happy-face-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                     <svg className="olymp-little-delete">
-                      <use xlinkHref="#olymp-little-delete" />
+                      <use xlinkto="#olymp-little-delete" />
                     </svg>
                   </div>
                 </li>
@@ -1082,13 +1082,13 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <div className="notification-event">
                     <div>
-                      <a href="#" className="h6 notification-friend">
+                      <Link to="#" className="h6 notification-friend">
                         Sarah Hetfield
-                      </a>{" "}
+                      </Link>{" "}
                       commented on your{" "}
-                      <a href="#" className="notification-link">
+                      <Link to="#" className="notification-link">
                         photo
-                      </a>
+                      </Link>
                       .
                     </div>
                     <span className="notification-date">
@@ -1102,7 +1102,7 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-comments-post-icon">
-                      <use xlinkHref="#olymp-comments-post-icon" />
+                      <use xlinkto="#olymp-comments-post-icon" />
                     </svg>
                   </span>
                   <div className="comment-photo">
@@ -1114,10 +1114,10 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                     <svg className="olymp-little-delete">
-                      <use xlinkHref="#olymp-little-delete" />
+                      <use xlinkto="#olymp-little-delete" />
                     </svg>
                   </div>
                 </li>
@@ -1127,13 +1127,13 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <div className="notification-event">
                     <div>
-                      <a href="#" className="h6 notification-friend">
+                      <Link to="#" className="h6 notification-friend">
                         Green Goo Rock
-                      </a>{" "}
+                      </Link>{" "}
                       invited you to attend to his event Goo in{" "}
-                      <a href="#" className="notification-link">
+                      <Link to="#" className="notification-link">
                         Gotham Bar
-                      </a>
+                      </Link>
                       .
                     </div>
                     <span className="notification-date">
@@ -1147,15 +1147,15 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-happy-face-icon">
-                      <use xlinkHref="#olymp-happy-face-icon" />
+                      <use xlinkto="#olymp-happy-face-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                     <svg className="olymp-little-delete">
-                      <use xlinkHref="#olymp-little-delete" />
+                      <use xlinkto="#olymp-little-delete" />
                     </svg>
                   </div>
                 </li>
@@ -1165,13 +1165,13 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <div className="notification-event">
                     <div>
-                      <a href="#" className="h6 notification-friend">
+                      <Link to="#" className="h6 notification-friend">
                         James Summers
-                      </a>{" "}
+                      </Link>{" "}
                       commented on your new{" "}
-                      <a href="#" className="notification-link">
+                      <Link to="#" className="notification-link">
                         profile status
-                      </a>
+                      </Link>
                       .
                     </div>
                     <span className="notification-date">
@@ -1185,22 +1185,22 @@ function Navbar({ isAuthenticated, user }) {
                   </div>
                   <span className="notification-icon">
                     <svg className="olymp-heart-icon">
-                      <use xlinkHref="#olymp-heart-icon" />
+                      <use xlinkto="#olymp-heart-icon" />
                     </svg>
                   </span>
                   <div className="more">
                     <svg className="olymp-three-dots-icon">
-                      <use xlinkHref="#olymp-three-dots-icon" />
+                      <use xlinkto="#olymp-three-dots-icon" />
                     </svg>
                     <svg className="olymp-little-delete">
-                      <use xlinkHref="#olymp-little-delete" />
+                      <use xlinkto="#olymp-little-delete" />
                     </svg>
                   </div>
                 </li>
               </ul>
-              <a href="#" className="view-all bg-primary">
+              <Link to="#" className="view-all bg-primary">
                 View All Notifications
-              </a>
+              </Link>
             </div>
           </div>
           <div className="tab-pane " id="search" role="tabpanel">

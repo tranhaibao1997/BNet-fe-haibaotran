@@ -57,14 +57,14 @@ function Login({ isAuthenticated, login,loginFacebook }) {
             <div className="or" />
             <a
               
-              href="https://localhost:5000/api/auth/facebook/login"
+              href="https://backend-final-project-haibao.herokuapp.com/api/auth/facebook/login"
               className="btn btn-lg bg-facebook full-width btn-icon-left"
             >
               <i className="fab fa-facebook-f" aria-hidden="true" />
               Login with Facebook
             </a>
             <a
-              href="https://localhost:5000/api/auth/gmail/login"
+              href="https://backend-final-project-haibao.herokuapp.com/api/auth/gmail/login"
               className="btn btn-lg bg-google full-width btn-icon-left"
             >
               <i className="fab fa-google" aria-hidden="true" />
